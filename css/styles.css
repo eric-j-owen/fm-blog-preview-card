@@ -28,7 +28,7 @@ body {
     justify-content: center;
 }
 
-.card {
+#card {
     border: 1px solid black;
     background-color: var(--neutral-white);
     box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
@@ -39,19 +39,19 @@ body {
 }
 
 
-.card > time,
-.card > h1 {
+#card > time,
+#card > h1 {
     display: block;
 }
 
-.card > img,
-.card > h1,
+#card > img,
+#card > h1,
 p {
     padding-bottom: 1.7vw;
 }
 
 
-.card > img {
+#card > img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -70,18 +70,19 @@ time {
     font-size: clamp(.6rem, 1.5vw, 2rem);
 }
 
-.card > h1 {
+#card > h1 {
     font-weight: 800;
     font-size: clamp(1rem, 2.5vw, 3rem);
     text-decoration: none;
     color: var(--neutral-black);
 }
 
-.card > h1:hover {
+#card > h1:hover {
     color:var(--prim-color);
+    cursor: pointer;
 }
 
-.card > p {
+#card > p {
     font-weight: 100;
     font-size: clamp(.6rem, 1.5vw, 2rem);
 }
