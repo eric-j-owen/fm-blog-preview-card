@@ -10,6 +10,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Feedback](#feedback)
 - [Author](#author)
 
 ## Overview
@@ -46,6 +47,10 @@ responsiveness. Example:
     font-size: clamp(.6rem, 1.5vw, 2rem);
 }
 ```
+
+### Feedback
+
+I received feedback to wrap my content in a <main> tag vs a <section> tag. Also to utilize a <h1> tag for the main header of the card. Both of these is to improve SEO and accessability. These changes will be reflected in the latest commit.  
 
 ## Author
 
