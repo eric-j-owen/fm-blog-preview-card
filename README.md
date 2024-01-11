@@ -50,7 +50,7 @@ responsiveness. Example:
 
 ### Feedback
 
-I received feedback to wrap my content in a <main> tag vs a <section> tag. Also to utilize a <h1> tag for the main header of the card. Both of these is to improve SEO and accessability. These changes will be reflected in the latest commit.  
+I received feedback to wrap my content in a `<main>` tag vs a `<section>` tag. Also to utilize a `<h1>` tag for the main header of the card. Both of these is to improve SEO and accessability. These changes will be reflected in the latest commit.  
 
 ## Author
 
