@@ -40,12 +40,12 @@ body {
 
 
 .card > time,
-.card > a {
+.card > h1 {
     display: block;
 }
 
 .card > img,
-.card > a,
+.card > h1,
 p {
     padding-bottom: 1.7vw;
 }
@@ -70,14 +70,14 @@ time {
     font-size: clamp(.6rem, 1.5vw, 2rem);
 }
 
-.card > a {
+.card > h1 {
     font-weight: 800;
     font-size: clamp(1rem, 2.5vw, 3rem);
     text-decoration: none;
     color: var(--neutral-black);
 }
 
-.card > a:hover {
+.card > h1:hover {
     color:var(--prim-color);
 }
 
