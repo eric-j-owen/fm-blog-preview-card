@@ -77,6 +77,10 @@ time {
     color: var(--neutral-black);
 }
 
+.card > a:hover {
+    color:var(--prim-color);
+}
+
 .card > p {
     font-weight: 100;
     font-size: clamp(.6rem, 1.5vw, 2rem);
